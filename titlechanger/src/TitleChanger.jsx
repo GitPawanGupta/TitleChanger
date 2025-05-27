@@ -1,4 +1,5 @@
 import { useEffect,useState } from 'react'
+import { GrTextAlignCenter } from 'react-icons/gr';
 
 
 
@@ -11,7 +12,8 @@ useEffect(() => {
 }, [count]);
   return (
     <div>
-     <h1>Button click counter</h1>
+        <h1>Title Changer</h1>
+     <h2>Button click counter</h2>
      <p>you clicked {count} times</p>
      <button onClick={()=> setCount(count+1)}>Click Me</button>
     </div>
